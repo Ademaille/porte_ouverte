@@ -6,7 +6,7 @@
 /* Mise en place du background */
 body {
     background-image: url(Tendance\ devs.jpg);
-    background-size: 2000px;
+    background-size: cover;
 }
 
 /* Mise en place du parent pour contenir les 2 colonnes en display grid */
@@ -89,6 +89,6 @@ em {
 @media screen and (max-width: 560px) {
     body {
         background-image: url(Tendance\ devs.jpg);
-        background-size: 1600px;
+        background-size: cover;
     }
 }
